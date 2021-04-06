@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(238, 247, 240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    height:25vh;
+    display:flex;
+    background-color: rgb(103, 252, 103);
+}
+#logo{
+    display:flex;
+    color:rgb(66, 107, 3);
+}
+#nav,#head{
+    padding-top:7vh;
+    margin-left:5vw;
+}
+a{
+    color:rgb(85, 139, 4);
+    background-color: rgb(229, 247, 212);
+}
+#main{
+    padding-top: 2vh;
+    background-image: url("../image/head.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:75vh;
+    width:100%;
+}
+#main1{
+    float:right;
+    padding:7vh 10vh 0 0;
+}
+
+@media only screen and (max-width: 970px){
+    header{
+        display:block;
+        height:40vh;
+    }
+    #nav{
+        text-align: center;
+        display:block;
+    }
+    #main1{
+        padding:7vh 0 0 0;
+    }
+
+}
+@media only screen and (max-width: 570px){
+    header{
+        height:55vh;
+    }
+    #main1{
+        padding:7vh 0 0 5vw;
+
+    }
+}
+
+
