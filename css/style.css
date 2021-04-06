@@ -52,6 +52,7 @@ a{
     }
     #main1{
         padding:7vh 0 0 7vw;
+        float:bottom-right;
 
     }
 }
